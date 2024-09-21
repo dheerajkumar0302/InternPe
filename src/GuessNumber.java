@@ -19,16 +19,14 @@ public class GuessNumber {
 
             for (i = 0; i < K; i++) {
 
-                System.out.println(
-                        "Guess the number:");
+                System.out.println("Guess the number:");
 
                 guess = sc.nextInt();
 
                 // If the number is guessed
                 if (number == guess) {
                     System.out.println(
-                            "Congratulations!"
-                                    + " You guessed the number.");
+                            "Congratulations!" + " You guessed the number.");
                     break;
                 }
                 else if (number > guess && i != K - 1) {
