@@ -15,7 +15,7 @@ public class GuessNumber {
             int i, guess;
 
             System.out.println(
-                    "A number is chosen" + " between 1 to 100." + "Guess the number" + " within 5 trials.");
+                    "A number is chosen between 1 to 100 \nGuess the number within 5 trials.");
 
             for (i = 0; i < K; i++) {
 
